@@ -16,6 +16,7 @@ class App extends React.Component {
     )
   }
 
+<<<<<<< HEAD
   componentDidMount() {
     console.log('Rendered')
   }
@@ -24,6 +25,8 @@ class App extends React.Component {
     console.log('Updated')
   }
 
+=======
+>>>>>>> fd8b2cdb2517502de75d8bf6611f06fff9b5e75e
   render() {
     if (this.state.lat) {
       return (
